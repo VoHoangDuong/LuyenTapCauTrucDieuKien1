@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            let a = Number(prompt("Nhập vào điểm kiểm tra :"));
+            let b = Number(prompt("Nhập vào điểm giữa kỳ :"));
+            let c = Number(prompt("Nhập vào điểm cuối kỳ :"));
+            let dTB = (a + b * 2 + c * 3) / 6;
+            if (dTB >= 9) {
+                alert("Học sinh xuất sắc");
+            } else if (dTB >= 8) {
+                alert("Học sinh giỏi");
+            } else if (dTB >= 6.5) {
+                alert("Học sinh khá");
+            } else if (dTB >= 4) {
+                alert("Học sinh trung bình");
+            } else {
+                alert("Học sinh yếu");
+            }
+        </script>
+    </body>
+</html>
